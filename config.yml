@@ -1,0 +1,75 @@
+# Galaxy Profile configuration for TyraNyamburaa
+# Lives at the root of github.com/TyraNyamburaa/TyraNyamburaa (gitignored by the template; see note in chat)
+
+username: TyraNyamburaa
+
+profile:
+  name: "Tyra Nyambura"
+  tagline: "Software Engineer | AI-powered & Full-Stack Apps"
+  company: "Open to opportunities"   # TODO: replace with your employer or leave as is
+  location: "Remote"                 # TODO: replace with your city/country if you want it shown
+  bio: |
+    Building AI-powered and full-stack applications with Python, FastAPI, React and Next.js.
+    Interested in backend systems, data/ML, automation and security-minded engineering.
+  philosophy: '"Always learning, always building."'
+
+social:
+  linkedin: "tyra-nyambura"
+  # email: "YOUR_EMAIL"        # TODO: uncomment and fill in if you want it shown
+  # website: "https://..."     # optional
+
+# Three focus areas, one galaxy arm each.
+# Colors: "synapse_cyan", "dendrite_violet", "axon_amber"
+galaxy_arms:
+  - name: "Backend"
+    color: "synapse_cyan"
+    items:
+      - "Python"
+      - "FastAPI"
+      - "PostgreSQL"
+
+  - name: "Data & ML"
+    color: "dendrite_violet"
+    items:
+      - "PyTorch"
+      - "scikit-learn"
+      - "Pandas"
+
+  - name: "Full-Stack"
+    color: "axon_amber"
+    items:
+      - "React"
+      - "Next.js"
+      - "TypeScript"
+
+# Featured projects. "arm" is the index (0-2) of the arm above.
+# TODO: adjust descriptions so they match what each repo really does.
+projects:
+  - repo: "TyraNyamburaa/backend"
+    arm: 0
+    description: "Python backend services and APIs."
+
+  - repo: "TyraNyamburaa/personal-projects"
+    arm: 2
+    description: "A collection of personal web projects and experiments."
+
+  - repo: "TyraNyamburaa/fan-page"
+    arm: 2
+    description: "A JavaScript fan page built for fun and practice."
+
+stats:
+  metrics:
+    - "commits"
+    - "stars"
+    - "prs"
+    - "issues"
+    - "repos"
+
+languages:
+  exclude:
+    - "HTML"
+    - "CSS"
+    - "Shell"
+    - "Makefile"
+    - "Jupyter Notebook"
+  max_display: 8
