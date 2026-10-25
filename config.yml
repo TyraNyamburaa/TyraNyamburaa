@@ -15,7 +15,7 @@ profile:
 
 social:
   linkedin: "tyra-nyambura"
-  # email: "YOUR_EMAIL"        # TODO: uncomment and fill in if you want it shown
+  email: "tyranyamburaa@gmail.com"        # TODO: uncomment and fill in if you want it shown
   # website: "https://..."     # optional
 
 # Three focus areas, one galaxy arm each.
@@ -73,3 +73,14 @@ languages:
     - "Makefile"
     - "Jupyter Notebook"
   max_display: 8
+
+theme:
+  void: "#070d0c"
+  nebula: "#0e1816"
+  star_dust: "#1b2b27"
+  synapse_cyan: "#5fb3a1"      # verdigris
+  dendrite_violet: "#c98b6b"   # copper
+  axon_amber: "#d9c9a3"        # bone / champagne
+  text_bright: "#f3efe6"
+  text_dim: "#a3aea8"
+  text_faint: "#6b7a74"
